@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.flexBox {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flexBox > p {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 30px;
+}
+
+#scoreTitle {
+    color:rgb(255, 132, 0);
+}
+
+#coin {
+    width: 10px;
+    height: 10px;
+}
+
+.listBox {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 5px;
+}
