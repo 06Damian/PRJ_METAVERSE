@@ -68,14 +68,20 @@ Materialen:
 
 
 Hoe werkt de Embed?
+
 -Download de Popoutmenu file en de PRJ-METAVERSE file
+
 -Plaats ze in de directory van de pagina die u wil testen.
+
 -Plaats deze 2 lijnen code in de metagegevens:
+
     <script src="Popoutmenu/MenuScript.js" defer></script>
     <link rel="stylesheet" type="text/css" href="Popoutmenu/MenuStyle.css">
 
 -Plaats deze lijn code ergens in de main van de pagina:
+
         <?php
         require 'Popoutmenu/Popout.php';
         ?>
+        
 -Er staat nu een knop rechtsonderin van uw pagina, Klik erop en begin met testen!
